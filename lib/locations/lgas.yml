@@ -1,0 +1,1547 @@
+---
+- - Demsa
+  - Adamawa
+- - Fufure
+  - Adamawa
+- - Ganye
+  - Adamawa
+- - Gayuk
+  - Adamawa
+- - Gombi
+  - Adamawa
+- - Grie
+  - Adamawa
+- - Hong
+  - Adamawa
+- - Jada
+  - Adamawa
+- - Larmurde
+  - Adamawa
+- - Madagali
+  - Adamawa
+- - Maiha
+  - Adamawa
+- - Mayo Belwa
+  - Adamawa
+- - Michika
+  - Adamawa
+- - Mubi North
+  - Adamawa
+- - Mubi South
+  - Adamawa
+- - Numan
+  - Adamawa
+- - Shelleng
+  - Adamawa
+- - Song
+  - Adamawa
+- - Toungo
+  - Adamawa
+- - Yola North
+  - Adamawa
+- - Yola South
+  - Adamawa
+- - Abak
+  - Akwa Ibom
+- - Eastern Obolo
+  - Akwa Ibom
+- - Eket
+  - Akwa Ibom
+- - Esit Eket
+  - Akwa Ibom
+- - Essien Udim
+  - Akwa Ibom
+- - Etim Ekpo
+  - Akwa Ibom
+- - Etinan
+  - Akwa Ibom
+- - Ibeno
+  - Akwa Ibom
+- - Ibesikpo Asutan
+  - Akwa Ibom
+- - Ibiono-Ibom
+  - Akwa Ibom
+- - Ikot Abasi
+  - Akwa Ibom
+- - Ika
+  - Akwa Ibom
+- - Ikono
+  - Akwa Ibom
+- - Ikot Ekpene
+  - Akwa Ibom
+- - Ini
+  - Akwa Ibom
+- - Mkpat-Enin
+  - Akwa Ibom
+- - Itu
+  - Akwa Ibom
+- - Mbo
+  - Akwa Ibom
+- - Nsit-Atai
+  - Akwa Ibom
+- - Nsit-Ibom
+  - Akwa Ibom
+- - Nsit-Ubium
+  - Akwa Ibom
+- - Obot Akara
+  - Akwa Ibom
+- - Okobo
+  - Akwa Ibom
+- - Onna
+  - Akwa Ibom
+- - Oron
+  - Akwa Ibom
+- - Udung-Uko
+  - Akwa Ibom
+- - Ukanafun
+  - Akwa Ibom
+- - Oruk Anam
+  - Akwa Ibom
+- - Uruan
+  - Akwa Ibom
+- - Urue-Offong/Oruko
+  - Akwa Ibom
+- - Uyo
+  - Akwa Ibom
+- - Aguata
+  - Anambra
+- - Anambra East
+  - Anambra
+- - Anaocha
+  - Anambra
+- - Awka North
+  - Anambra
+- - Anambra West
+  - Anambra
+- - Awka South
+  - Anambra
+- - Ayamelum
+  - Anambra
+- - Dunukofia
+  - Anambra
+- - Ekwusigo
+  - Anambra
+- - Idemili North
+  - Anambra
+- - Idemili South
+  - Anambra
+- - Ihiala
+  - Anambra
+- - Njikoka
+  - Anambra
+- - Nnewi North
+  - Anambra
+- - Nnewi South
+  - Anambra
+- - Ogbaru
+  - Anambra
+- - Onitsha North
+  - Anambra
+- - Onitsha South
+  - Anambra
+- - Orumba North
+  - Anambra
+- - Orumba South
+  - Anambra
+- - Oyi
+  - Anambra
+- - Abeokuta North
+  - Ogun
+- - Abeokuta South
+  - Ogun
+- - Ado-Odo/Ota
+  - Ogun
+- - Egbado North
+  - Ogun
+- - Ewekoro
+  - Ogun
+- - Egbado South
+  - Ogun
+- - Ijebu North
+  - Ogun
+- - Ijebu East
+  - Ogun
+- - Ifo
+  - Ogun
+- - Ijebu Ode
+  - Ogun
+- - Ijebu North East
+  - Ogun
+- - Imeko Afon
+  - Ogun
+- - Ikenne
+  - Ogun
+- - Ipokia
+  - Ogun
+- - Odeda
+  - Ogun
+- - Obafemi Owode
+  - Ogun
+- - Odogbolu
+  - Ogun
+- - Remo North
+  - Ogun
+- - Ogun Waterside
+  - Ogun
+- - Shagamu
+  - Ogun
+- - Akoko North-East
+  - Ondo
+- - Akoko North-West
+  - Ondo
+- - Akoko South-West
+  - Ondo
+- - Akoko South-East
+  - Ondo
+- - Akure North
+  - Ondo
+- - Akure South
+  - Ondo
+- - Ese Odo
+  - Ondo
+- - Idanre
+  - Ondo
+- - Ifedore
+  - Ondo
+- - Ilaje
+  - Ondo
+- - Irele
+  - Ondo
+- - Ile Oluji/Okeigbo
+  - Ondo
+- - Odigbo
+  - Ondo
+- - Okitipupa
+  - Ondo
+- - Ondo West
+  - Ondo
+- - Ose
+  - Ondo
+- - Ondo East
+  - Ondo
+- - Owo
+  - Ondo
+- - Abua/Odual
+  - Rivers
+- - Ahoada East
+  - Rivers
+- - Ahoada West
+  - Rivers
+- - Andoni
+  - Rivers
+- - Akuku-Toru
+  - Rivers
+- - Asari-Toru
+  - Rivers
+- - Bonny
+  - Rivers
+- - Degema
+  - Rivers
+- - Emuoha
+  - Rivers
+- - Eleme
+  - Rivers
+- - Ikwerre
+  - Rivers
+- - Etche
+  - Rivers
+- - Gokana
+  - Rivers
+- - Khana
+  - Rivers
+- - Alkaleri
+  - Bauchi
+- - Bauchi
+  - Bauchi
+- - Bogoro
+  - Bauchi
+- - Damban
+  - Bauchi
+- - Darazo
+  - Bauchi
+- - Dass
+  - Bauchi
+- - Gamawa
+  - Bauchi
+- - Ganjuwa
+  - Bauchi
+- - Giade
+  - Bauchi
+- - Itas/Gadau
+  - Bauchi
+- - Jama'are
+  - Bauchi
+- - Katagum
+  - Bauchi
+- - Kirfi
+  - Bauchi
+- - Misau
+  - Bauchi
+- - Ningi
+  - Bauchi
+- - Shira
+  - Bauchi
+- - Tafawa Balewa
+  - Bauchi
+- - Toro
+  - Bauchi
+- - Warji
+  - Bauchi
+- - Zaki
+  - Bauchi
+- - Agatu
+  - Benue
+- - Apa
+  - Benue
+- - Ado
+  - Benue
+- - Buruku
+  - Benue
+- - Gboko
+  - Benue
+- - Guma
+  - Benue
+- - Gwer East
+  - Benue
+- - Gwer West
+  - Benue
+- - Katsina-Ala
+  - Benue
+- - Konshisha
+  - Benue
+- - Kwande
+  - Benue
+- - Logo
+  - Benue
+- - Makurdi
+  - Benue
+- - Obi
+  - Benue
+- - Ogbadibo
+  - Benue
+- - Ohimini
+  - Benue
+- - Oju
+  - Benue
+- - Okpokwu
+  - Benue
+- - Oturkpo
+  - Benue
+- - Tarka
+  - Benue
+- - Ukum
+  - Benue
+- - Ushongo
+  - Benue
+- - Vandeikya
+  - Benue
+- - Abadam
+  - Borno
+- - Askira/Uba
+  - Borno
+- - Bama
+  - Borno
+- - Bayo
+  - Borno
+- - Biu
+  - Borno
+- - Chibok
+  - Borno
+- - Damboa
+  - Borno
+- - Dikwa
+  - Borno
+- - Guzamala
+  - Borno
+- - Gubio
+  - Borno
+- - Hawul
+  - Borno
+- - Gwoza
+  - Borno
+- - Jere
+  - Borno
+- - Kaga
+  - Borno
+- - Kala/Balge
+  - Borno
+- - Konduga
+  - Borno
+- - Kukawa
+  - Borno
+- - Kwaya Kusar
+  - Borno
+- - Mafa
+  - Borno
+- - Magumeri
+  - Borno
+- - Maiduguri
+  - Borno
+- - Mobbar
+  - Borno
+- - Marte
+  - Borno
+- - Monguno
+  - Borno
+- - Ngala
+  - Borno
+- - Nganzai
+  - Borno
+- - Shani
+  - Borno
+- - Brass
+  - Bayelsa
+- - Ekeremor
+  - Bayelsa
+- - Kolokuma/Opokuma
+  - Bayelsa
+- - Nembe
+  - Bayelsa
+- - Ogbia
+  - Bayelsa
+- - Sagbama
+  - Bayelsa
+- - Southern Ijaw
+  - Bayelsa
+- - Yenagoa
+  - Bayelsa
+- - Abi
+  - Cross River
+- - Akamkpa
+  - Cross River
+- - Akpabuyo
+  - Cross River
+- - Bakassi
+  - Cross River
+- - Bekwarra
+  - Cross River
+- - Biase
+  - Cross River
+- - Boki
+  - Cross River
+- - Calabar Municipal
+  - Cross River
+- - Calabar South
+  - Cross River
+- - Etung
+  - Cross River
+- - Ikom
+  - Cross River
+- - Obanliku
+  - Cross River
+- - Obubra
+  - Cross River
+- - Obudu
+  - Cross River
+- - Odukpani
+  - Cross River
+- - Ogoja
+  - Cross River
+- - Yakuur
+  - Cross River
+- - Yala
+  - Cross River
+- - Aniocha North
+  - Delta
+- - Aniocha South
+  - Delta
+- - Bomadi
+  - Delta
+- - Burutu
+  - Delta
+- - Ethiope West
+  - Delta
+- - Ethiope East
+  - Delta
+- - Ika North East
+  - Delta
+- - Ika South
+  - Delta
+- - Isoko North
+  - Delta
+- - Isoko South
+  - Delta
+- - Ndokwa East
+  - Delta
+- - Ndokwa West
+  - Delta
+- - Okpe
+  - Delta
+- - Oshimili North
+  - Delta
+- - Oshimili South
+  - Delta
+- - Patani
+  - Delta
+- - Sapele
+  - Delta
+- - Udu
+  - Delta
+- - Ughelli North
+  - Delta
+- - Ukwuani
+  - Delta
+- - Ughelli South
+  - Delta
+- - Uvwie
+  - Delta
+- - Warri North
+  - Delta
+- - Warri South
+  - Delta
+- - Warri South West
+  - Delta
+- - Obio/Akpor
+  - Rivers
+- - Ogba/Egbema/Ndoni
+  - Rivers
+- - Ogu/Bolo
+  - Rivers
+- - Okrika
+  - Rivers
+- - Omuma
+  - Rivers
+- - Opobo/Nkoro
+  - Rivers
+- - Oyigbo
+  - Rivers
+- - Port Harcourt
+  - Rivers
+- - Abakaliki
+  - Ebonyi
+- - Afikpo North
+  - Ebonyi
+- - Ebonyi
+  - Ebonyi
+- - Afikpo South
+  - Ebonyi
+- - Ezza North
+  - Ebonyi
+- - Ikwo
+  - Ebonyi
+- - Ezza South
+  - Ebonyi
+- - Ivo
+  - Ebonyi
+- - Ishielu
+  - Ebonyi
+- - Izzi
+  - Ebonyi
+- - Ohaozara
+  - Ebonyi
+- - Ohaukwu
+  - Ebonyi
+- - Onicha
+  - Ebonyi
+- - Akoko-Edo
+  - Edo
+- - Egor
+  - Edo
+- - Esan Central
+  - Edo
+- - Esan North-East
+  - Edo
+- - Esan South-East
+  - Edo
+- - Esan West
+  - Edo
+- - Etsako Central
+  - Edo
+- - Etsako East
+  - Edo
+- - Etsako West
+  - Edo
+- - Igueben
+  - Edo
+- - Ikpoba Okha
+  - Edo
+- - Orhionmwon
+  - Edo
+- - Oredo
+  - Edo
+- - Ovia North-East
+  - Edo
+- - Ovia South-West
+  - Edo
+- - Owan East
+  - Edo
+- - Owan West
+  - Edo
+- - Uhunmwonde
+  - Edo
+- - Ado Ekiti
+  - Ekiti
+- - Efon
+  - Ekiti
+- - Ekiti East
+  - Ekiti
+- - Ekiti South-West
+  - Ekiti
+- - Ekiti West
+  - Ekiti
+- - Emure
+  - Ekiti
+- - Gbonyin
+  - Ekiti
+- - Ido Osi
+  - Ekiti
+- - Ijero
+  - Ekiti
+- - Ikere
+  - Ekiti
+- - Ilejemeje
+  - Ekiti
+- - Irepodun/Ifelodun
+  - Ekiti
+- - Ikole
+  - Ekiti
+- - Ise/Orun
+  - Ekiti
+- - Moba
+  - Ekiti
+- - Oye
+  - Ekiti
+- - Awgu
+  - Enugu
+- - Aninri
+  - Enugu
+- - Enugu East
+  - Enugu
+- - Enugu North
+  - Enugu
+- - Ezeagu
+  - Enugu
+- - Enugu South
+  - Enugu
+- - Igbo Etiti
+  - Enugu
+- - Igbo Eze North
+  - Enugu
+- - Igbo Eze South
+  - Enugu
+- - Isi Uzo
+  - Enugu
+- - Nkanu East
+  - Enugu
+- - Nkanu West
+  - Enugu
+- - Nsukka
+  - Enugu
+- - Udenu
+  - Enugu
+- - Oji River
+  - Enugu
+- - Uzo Uwani
+  - Enugu
+- - Udi
+  - Enugu
+- - Abaji
+  - Federal Capital Territory
+- - Bwari
+  - Federal Capital Territory
+- - Gwagwalada
+  - Federal Capital Territory
+- - Kuje
+  - Federal Capital Territory
+- - Kwali
+  - Federal Capital Territory
+- - Municipal Area Council
+  - Federal Capital Territory
+- - Akko
+  - Gombe
+- - Balanga
+  - Gombe
+- - Billiri
+  - Gombe
+- - Dukku
+  - Gombe
+- - Funakaye
+  - Gombe
+- - Gombe
+  - Gombe
+- - Kaltungo
+  - Gombe
+- - Kwami
+  - Gombe
+- - Nafada
+  - Gombe
+- - Shongom
+  - Gombe
+- - Yamaltu/Deba
+  - Gombe
+- - Auyo
+  - Jigawa
+- - Babura
+  - Jigawa
+- - Buji
+  - Jigawa
+- - Biriniwa
+  - Jigawa
+- - Birnin Kudu
+  - Jigawa
+- - Dutse
+  - Jigawa
+- - Gagarawa
+  - Jigawa
+- - Garki
+  - Jigawa
+- - Gumel
+  - Jigawa
+- - Guri
+  - Jigawa
+- - Gwaram
+  - Jigawa
+- - Gwiwa
+  - Jigawa
+- - Hadejia
+  - Jigawa
+- - Jahun
+  - Jigawa
+- - Kafin Hausa
+  - Jigawa
+- - Kazaure
+  - Jigawa
+- - Kiri Kasama
+  - Jigawa
+- - Kiyawa
+  - Jigawa
+- - Kaugama
+  - Jigawa
+- - Maigatari
+  - Jigawa
+- - Malam Madori
+  - Jigawa
+- - Miga
+  - Jigawa
+- - Sule Tankarkar
+  - Jigawa
+- - Roni
+  - Jigawa
+- - Ringim
+  - Jigawa
+- - Yankwashi
+  - Jigawa
+- - Taura
+  - Jigawa
+- - Tai
+  - Rivers
+- - Afijio
+  - Oyo
+- - Akinyele
+  - Oyo
+- - Atiba
+  - Oyo
+- - Atisbo
+  - Oyo
+- - Egbeda
+  - Oyo
+- - Ibadan North
+  - Oyo
+- - Ibadan North-East
+  - Oyo
+- - Ibadan North-West
+  - Oyo
+- - Ibadan South-East
+  - Oyo
+- - Ibarapa Central
+  - Oyo
+- - Ibadan South-West
+  - Oyo
+- - Ibarapa East
+  - Oyo
+- - Ido
+  - Oyo
+- - Ibarapa North
+  - Oyo
+- - Irepo
+  - Oyo
+- - Iseyin
+  - Oyo
+- - Itesiwaju
+  - Oyo
+- - Aboh Mbaise
+  - Imo
+- - Ahiazu Mbaise
+  - Imo
+- - Ehime Mbano
+  - Imo
+- - Ezinihitte
+  - Imo
+- - Ideato North
+  - Imo
+- - Ideato South
+  - Imo
+- - Ihitte/Uboma
+  - Imo
+- - Ikeduru
+  - Imo
+- - Isiala Mbano
+  - Imo
+- - Mbaitoli
+  - Imo
+- - Isu
+  - Imo
+- - Ngor Okpala
+  - Imo
+- - Njaba
+  - Imo
+- - Nkwerre
+  - Imo
+- - Nwangele
+  - Imo
+- - Obowo
+  - Imo
+- - Oguta
+  - Imo
+- - Ohaji/Egbema
+  - Imo
+- - Okigwe
+  - Imo
+- - Orlu
+  - Imo
+- - Orsu
+  - Imo
+- - Oru East
+  - Imo
+- - Oru West
+  - Imo
+- - Owerri Municipal
+  - Imo
+- - Owerri North
+  - Imo
+- - Unuimo
+  - Imo
+- - Owerri West
+  - Imo
+- - Birnin Gwari
+  - Kaduna
+- - Chikun
+  - Kaduna
+- - Giwa
+  - Kaduna
+- - Ikara
+  - Kaduna
+- - Igabi
+  - Kaduna
+- - Jaba
+  - Kaduna
+- - Jema'a
+  - Kaduna
+- - Kachia
+  - Kaduna
+- - Kaduna North
+  - Kaduna
+- - Kaduna South
+  - Kaduna
+- - Kagarko
+  - Kaduna
+- - Kajuru
+  - Kaduna
+- - Kaura
+  - Kaduna
+- - Kauru
+  - Kaduna
+- - Kubau
+  - Kaduna
+- - Kudan
+  - Kaduna
+- - Lere
+  - Kaduna
+- - Makarfi
+  - Kaduna
+- - Sabon Gari
+  - Kaduna
+- - Sanga
+  - Kaduna
+- - Soba
+  - Kaduna
+- - Zangon Kataf
+  - Kaduna
+- - Zaria
+  - Kaduna
+- - Aleiro
+  - Kebbi
+- - Argungu
+  - Kebbi
+- - Arewa Dandi
+  - Kebbi
+- - Augie
+  - Kebbi
+- - Bagudo
+  - Kebbi
+- - Birnin Kebbi
+  - Kebbi
+- - Bunza
+  - Kebbi
+- - Dandi
+  - Kebbi
+- - Fakai
+  - Kebbi
+- - Gwandu
+  - Kebbi
+- - Jega
+  - Kebbi
+- - Kalgo
+  - Kebbi
+- - Koko/Besse
+  - Kebbi
+- - Maiyama
+  - Kebbi
+- - Ngaski
+  - Kebbi
+- - Shanga
+  - Kebbi
+- - Suru
+  - Kebbi
+- - Sakaba
+  - Kebbi
+- - Wasagu/Danko
+  - Kebbi
+- - Yauri
+  - Kebbi
+- - Zuru
+  - Kebbi
+- - Ajingi
+  - Kano
+- - Albasu
+  - Kano
+- - Bagwai
+  - Kano
+- - Bebeji
+  - Kano
+- - Bichi
+  - Kano
+- - Bunkure
+  - Kano
+- - Dala
+  - Kano
+- - Dambatta
+  - Kano
+- - Dawakin Kudu
+  - Kano
+- - Dawakin Tofa
+  - Kano
+- - Doguwa
+  - Kano
+- - Fagge
+  - Kano
+- - Gabasawa
+  - Kano
+- - Garko
+  - Kano
+- - Garun Mallam
+  - Kano
+- - Gezawa
+  - Kano
+- - Gaya
+  - Kano
+- - Gwale
+  - Kano
+- - Gwarzo
+  - Kano
+- - Kabo
+  - Kano
+- - Kano Municipal
+  - Kano
+- - Karaye
+  - Kano
+- - Kibiya
+  - Kano
+- - Kiru
+  - Kano
+- - Kumbotso
+  - Kano
+- - Kunchi
+  - Kano
+- - Kura
+  - Kano
+- - Madobi
+  - Kano
+- - Makoda
+  - Kano
+- - Minjibir
+  - Kano
+- - Nasarawa
+  - Kano
+- - Rano
+  - Kano
+- - Rimin Gado
+  - Kano
+- - Rogo
+  - Kano
+- - Shanono
+  - Kano
+- - Takai
+  - Kano
+- - Sumaila
+  - Kano
+- - Tarauni
+  - Kano
+- - Tofa
+  - Kano
+- - Tsanyawa
+  - Kano
+- - Tudun Wada
+  - Kano
+- - Ungogo
+  - Kano
+- - Warawa
+  - Kano
+- - Wudil
+  - Kano
+- - Ajaokuta
+  - Kogi
+- - Adavi
+  - Kogi
+- - Ankpa
+  - Kogi
+- - Bassa
+  - Kogi
+- - Dekina
+  - Kogi
+- - Ibaji
+  - Kogi
+- - Idah
+  - Kogi
+- - Igalamela Odolu
+  - Kogi
+- - Ijumu
+  - Kogi
+- - Kogi
+  - Kogi
+- - Kabba/Bunu
+  - Kogi
+- - Lokoja
+  - Kogi
+- - Ofu
+  - Kogi
+- - Mopa Muro
+  - Kogi
+- - Ogori/Magongo
+  - Kogi
+- - Okehi
+  - Kogi
+- - Okene
+  - Kogi
+- - Olamaboro
+  - Kogi
+- - Omala
+  - Kogi
+- - Yagba East
+  - Kogi
+- - Yagba West
+  - Kogi
+- - Iwajowa
+  - Oyo
+- - Kajola
+  - Oyo
+- - Lagelu
+  - Oyo
+- - Ogbomosho North
+  - Oyo
+- - Ogbomosho South
+  - Oyo
+- - Ogo Oluwa
+  - Oyo
+- - Olorunsogo
+  - Oyo
+- - Oluyole
+  - Oyo
+- - Ona Ara
+  - Oyo
+- - Orelope
+  - Oyo
+- - Ori Ire
+  - Oyo
+- - Oyo
+  - Oyo
+- - Oyo East
+  - Oyo
+- - Saki East
+  - Oyo
+- - Saki West
+  - Oyo
+- - Surulere Oyo State
+  - Oyo
+- - Aiyedire
+  - Osun
+- - Atakunmosa West
+  - Osun
+- - Atakunmosa East
+  - Osun
+- - Aiyedaade
+  - Osun
+- - Boluwaduro
+  - Osun
+- - Boripe
+  - Osun
+- - Ife East
+  - Osun
+- - Ede South
+  - Osun
+- - Ife North
+  - Osun
+- - Ede North
+  - Osun
+- - Ife South
+  - Osun
+- - Ejigbo
+  - Osun
+- - Ife Central
+  - Osun
+- - Ifedayo
+  - Osun
+- - Egbedore
+  - Osun
+- - Ila
+  - Osun
+- - Ifelodun
+  - Osun
+- - Ilesa East
+  - Osun
+- - Ilesa West
+  - Osun
+- - Irepodun
+  - Osun
+- - Irewole
+  - Osun
+- - Isokan
+  - Osun
+- - Iwo
+  - Osun
+- - Obokun
+  - Osun
+- - Odo Otin
+  - Osun
+- - Ola Oluwa
+  - Osun
+- - Olorunda
+  - Osun
+- - Oriade
+  - Osun
+- - Orolu
+  - Osun
+- - Osogbo
+  - Osun
+- - Gudu
+  - Sokoto
+- - Gwadabawa
+  - Sokoto
+- - Illela
+  - Sokoto
+- - Isa
+  - Sokoto
+- - Kebbe
+  - Sokoto
+- - Kware
+  - Sokoto
+- - Rabah
+  - Sokoto
+- - Sabon Birni
+  - Sokoto
+- - Shagari
+  - Sokoto
+- - Silame
+  - Sokoto
+- - Sokoto North
+  - Sokoto
+- - Sokoto South
+  - Sokoto
+- - Tambuwal
+  - Sokoto
+- - Tangaza
+  - Sokoto
+- - Tureta
+  - Sokoto
+- - Wamako
+  - Sokoto
+- - Wurno
+  - Sokoto
+- - Yabo
+  - Sokoto
+- - Bokkos
+  - Plateau
+- - Barkin Ladi
+  - Plateau
+- - Bassa
+  - Plateau
+- - Jos East
+  - Plateau
+- - Jos North
+  - Plateau
+- - Jos South
+  - Plateau
+- - Kanam
+  - Plateau
+- - Kanke
+  - Plateau
+- - Langtang South
+  - Plateau
+- - Langtang North
+  - Plateau
+- - Mangu
+  - Plateau
+- - Mikang
+  - Plateau
+- - Pankshin
+  - Plateau
+- - Qua'an Pan
+  - Plateau
+- - Riyom
+  - Plateau
+- - Shendam
+  - Plateau
+- - Wase
+  - Plateau
+- - Ardo Kola
+  - Taraba
+- - Bali
+  - Taraba
+- - Donga
+  - Taraba
+- - Gashaka
+  - Taraba
+- - Gassol
+  - Taraba
+- - Ibi
+  - Taraba
+- - Jalingo
+  - Taraba
+- - Karim Lamido
+  - Taraba
+- - Kumi
+  - Taraba
+- - Lau
+  - Taraba
+- - Sardauna
+  - Taraba
+- - Takum
+  - Taraba
+- - Ussa
+  - Taraba
+- - Wukari
+  - Taraba
+- - Yorro
+  - Taraba
+- - Zing
+  - Taraba
+- - Bade
+  - Yobe
+- - Bursari
+  - Yobe
+- - Damaturu
+  - Yobe
+- - Fika
+  - Yobe
+- - Fune
+  - Yobe
+- - Geidam
+  - Yobe
+- - Gujba
+  - Yobe
+- - Gulani
+  - Yobe
+- - Jakusko
+  - Yobe
+- - Karasuwa
+  - Yobe
+- - Machina
+  - Yobe
+- - Nangere
+  - Yobe
+- - Nguru
+  - Yobe
+- - Potiskum
+  - Yobe
+- - Tarmuwa
+  - Yobe
+- - Yunusari
+  - Yobe
+- - Anka
+  - Zamfara
+- - Birnin Magaji/Kiyaw
+  - Zamfara
+- - Bakura
+  - Zamfara
+- - Bukkuyum
+  - Zamfara
+- - Bungudu
+  - Zamfara
+- - Gummi
+  - Zamfara
+- - Gusau
+  - Zamfara
+- - Kaura Namoda
+  - Zamfara
+- - Agege
+  - Lagos
+- - Ajeromi-Ifelodun
+  - Lagos
+- - Alimosho
+  - Lagos
+- - Amuwo-Odofin
+  - Lagos
+- - Badagry
+  - Lagos
+- - Apapa
+  - Lagos
+- - Epe
+  - Lagos
+- - Eti Osa
+  - Lagos
+- - Ibeju-Lekki
+  - Lagos
+- - Ifako-Ijaiye
+  - Lagos
+- - Ikeja
+  - Lagos
+- - Ikorodu
+  - Lagos
+- - Kosofe
+  - Lagos
+- - Lagos Island
+  - Lagos
+- - Mushin
+  - Lagos
+- - Lagos Mainland
+  - Lagos
+- - Ojo
+  - Lagos
+- - Oshodi-Isolo
+  - Lagos
+- - Shomolu
+  - Lagos
+- - Surulere Lagos State
+  - Lagos
+- - Bakori
+  - Katsina
+- - Batagarawa
+  - Katsina
+- - Batsari
+  - Katsina
+- - Baure
+  - Katsina
+- - Bindawa
+  - Katsina
+- - Charanchi
+  - Katsina
+- - Danja
+  - Katsina
+- - Dandume
+  - Katsina
+- - Dan Musa
+  - Katsina
+- - Daura
+  - Katsina
+- - Dutsi
+  - Katsina
+- - Dutsin Ma
+  - Katsina
+- - Faskari
+  - Katsina
+- - Funtua
+  - Katsina
+- - Ingawa
+  - Katsina
+- - Jibia
+  - Katsina
+- - Kafur
+  - Katsina
+- - Kaita
+  - Katsina
+- - Kankara
+  - Katsina
+- - Kankia
+  - Katsina
+- - Katsina
+  - Katsina
+- - Kurfi
+  - Katsina
+- - Kusada
+  - Katsina
+- - Mai'Adua
+  - Katsina
+- - Malumfashi
+  - Katsina
+- - Mani
+  - Katsina
+- - Mashi
+  - Katsina
+- - Matazu
+  - Katsina
+- - Musawa
+  - Katsina
+- - Rimi
+  - Katsina
+- - Sabuwa
+  - Katsina
+- - Safana
+  - Katsina
+- - Sandamu
+  - Katsina
+- - Zango
+  - Katsina
+- - Asa
+  - Kwara
+- - Baruten
+  - Kwara
+- - Edu
+  - Kwara
+- - Ilorin East
+  - Kwara
+- - Ifelodun
+  - Kwara
+- - Ilorin South
+  - Kwara
+- - Ekiti Kwara State
+  - Kwara
+- - Ilorin West
+  - Kwara
+- - Irepodun
+  - Kwara
+- - Isin
+  - Kwara
+- - Kaiama
+  - Kwara
+- - Moro
+  - Kwara
+- - Offa
+  - Kwara
+- - Oke Ero
+  - Kwara
+- - Oyun
+  - Kwara
+- - Pategi
+  - Kwara
+- - Akwanga
+  - Nasarawa
+- - Awe
+  - Nasarawa
+- - Doma
+  - Nasarawa
+- - Karu
+  - Nasarawa
+- - Keana
+  - Nasarawa
+- - Keffi
+  - Nasarawa
+- - Lafia
+  - Nasarawa
+- - Kokona
+  - Nasarawa
+- - Nasarawa Egon
+  - Nasarawa
+- - Nasarawa
+  - Nasarawa
+- - Obi
+  - Nasarawa
+- - Toto
+  - Nasarawa
+- - Wamba
+  - Nasarawa
+- - Agaie
+  - Niger
+- - Agwara
+  - Niger
+- - Bida
+  - Niger
+- - Borgu
+  - Niger
+- - Bosso
+  - Niger
+- - Chanchaga
+  - Niger
+- - Edati
+  - Niger
+- - Gbako
+  - Niger
+- - Gurara
+  - Niger
+- - Katcha
+  - Niger
+- - Kontagora
+  - Niger
+- - Lapai
+  - Niger
+- - Lavun
+  - Niger
+- - Mariga
+  - Niger
+- - Magama
+  - Niger
+- - Mokwa
+  - Niger
+- - Mashegu
+  - Niger
+- - Aba North
+  - Abia
+- - Arochukwu
+  - Abia
+- - Aba South
+  - Abia
+- - Bende
+  - Abia
+- - Isiala Ngwa North
+  - Abia
+- - Ikwuano
+  - Abia
+- - Isiala Ngwa South
+  - Abia
+- - Isuikwuato
+  - Abia
+- - Obi Ngwa
+  - Abia
+- - Ohafia
+  - Abia
+- - Osisioma
+  - Abia
+- - Ugwunagbo
+  - Abia
+- - Ukwa East
+  - Abia
+- - Ukwa West
+  - Abia
+- - Umuahia North
+  - Abia
+- - Umuahia South
+  - Abia
+- - Umu Nneochi
+  - Abia
+- - Moya
+  - Niger
+- - Paikoro
+  - Niger
+- - Rafi
+  - Niger
+- - Rijau
+  - Niger
+- - Shiroro
+  - Niger
+- - Suleja
+  - Niger
+- - Tafa
+  - Niger
+- - Wushishi
+  - Niger
+- - Binji
+  - Sokoto
+- - Bodinga
+  - Sokoto
+- - Dange Shuni
+  - Sokoto
+- - Goronyo
+  - Sokoto
+- - Gada
+  - Sokoto
+- - Maradun
+  - Zamfara
+- - Shinkafi
+  - Zamfara
+- - Maru
+  - Zamfara
+- - Talata Mafara
+  - Zamfara
+- - Tsafe
+  - Zamfara
+- - Zurmi
+  - Zamfara
