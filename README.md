@@ -1,28 +1,54 @@
-== README
+# Locations NG
+Locations NG is a gem that provides methods to get all states, their cities and LGAs in Nigeria. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+### Requirements
+* Rails version
+`v4.2.6`
 
 * Ruby version
+`>= 2.3.1`
 
-* System dependencies
+## Getting Started
 
-* Configuration
+Add this line to your Gemfile
 
-* Database creation
+```bash
+gem 'locations_ng'
+```
 
-* Database initialization
+And then execute:
 
-* How to run the test suite
+```bash
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Or install it yourself
 
-* Deployment instructions
+```bash
+$ gem install locations_ng
+```
+## Usage
 
-* ...
+### Require the gem
+```ruby
+require 'locations_ng'
+```
 
+### 1. Get all States, canonical
+```ruby
+LocationsNg::State.new.states
+```
+#### Response
+```json
+[
+  {:name=>"Abia", :capital=>"Umuahia"},
+  {:name=>"Adamawa", :capital=>"Yola"},
+  {:name=>"Akwa Ibom", :capital=>"Uyo"},
+  ...
+]
+```
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+License
+----
+
+MIT
