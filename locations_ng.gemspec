@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.3.1'
 
   s.files = Dir.glob('lib/**/*')
+  s.test_files = Dir.glob('{test,spec,features}/**/*')
 
   s.add_dependency 'rails', '4.2.6'
-  s.add_development_dependency 'spring', '~> 0'
   s.add_development_dependency 'rspec', '~> 3.5'
 end
