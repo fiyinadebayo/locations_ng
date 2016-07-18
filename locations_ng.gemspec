@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir.glob('lib/**/*')
 
   s.add_dependency 'rails', '4.2.6'
-  s.add_development_dependency 'spring'
+  s.add_development_dependency 'spring', '~> 0'
+  s.add_development_dependency 'rspec', '~> 3.5'
 end

@@ -7,4 +7,3 @@ Gemfile.lock
 !/log/.keep
 /tmp
 .DS_Store
-Rakefile
