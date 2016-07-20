@@ -7,6 +7,7 @@
   maxLat: 6.0191921
   longitude: 7.524724300000001
   maxLong: 7.9630091
+  alias: abia
 - minLat: 7.452592
   name: Adamawa
   capital: Yola
@@ -15,6 +16,7 @@
   maxLat: 10.943588
   longitude: 12.4380581
   maxLong: 13.6924919
+  alias: adamawa
 - minLat: 4.4780049
   name: Akwa Ibom
   capital: Uyo
@@ -23,6 +25,7 @@
   maxLat: 5.530245
   longitude: 7.872159999999999
   maxLong: 8.340371
+  alias: akwa_ibom
 - minLat: 5.692615000000001
   name: Anambra
   capital: Awka
@@ -31,6 +34,7 @@
   maxLat: 6.7795999
   longitude: 7.0068393
   maxLong: 7.355934
+  alias: anambra
 - minLat: 10.255381
   name: Bauchi
   capital: Bauchi
@@ -39,6 +43,7 @@
   maxLat: 10.3398292
   longitude: 9.844166999999999
   maxLong: 9.864006
+  alias: bauchi
 - minLat: 6.4427789
   name: Benue
   capital: Makurdi
@@ -47,6 +52,7 @@
   maxLat: 8.149299
   longitude: 8.8362755
   maxLong: 9.918301
+  alias: benue
 - minLat: 10.0291549
   name: Borno
   capital: Maiduguri
@@ -55,6 +61,7 @@
   maxLat: 13.7144441
   longitude: 12.9789121
   maxLong: 14.680073
+  alias: borno
 - minLat: 4.2771439
   name: Bayelsa
   capital: Yenagoa
@@ -63,6 +70,7 @@
   maxLat: 5.3933139
   longitude: 5.898713900000001
   maxLong: 6.724865899999999
+  alias: bayelsa
 - minLat: 4.690596000000001
   name: Cross River
   capital: Calabar
@@ -71,6 +79,7 @@
   maxLat: 6.899680999999999
   longitude: 8.6600586
   maxLong: 9.472486
+  alias: cross_river
 - minLat: 5.024351999999999
   name: Delta
   capital: Asaba
@@ -79,6 +88,7 @@
   maxLat: 6.5248195
   longitude: 5.898713900000001
   maxLong: 6.7653911
+  alias: delta
 - minLat: 5.6873539
   name: Ebonyi
   capital: Abakaliki
@@ -87,6 +97,7 @@
   maxLat: 6.807093
   longitude: 7.959286299999999
   maxLong: 8.4470269
+  alias: ebonyi
 - minLat: 5.7386799
   name: Edo
   capital: Benin
@@ -95,6 +106,7 @@
   maxLat: 7.5721479
   longitude: 5.898713900000001
   maxLong: 6.707891000000001
+  alias: edo
 - minLat: 7.272215999999999
   name: Ekiti
   capital: Ado-Ekiti
@@ -103,6 +115,7 @@
   maxLat: 8.0674911
   longitude: 5.3102505
   maxLong: 5.8048959
+  alias: ekiti
 - minLat: 6.360852
   name: Enugu
   capital: Enugu
@@ -111,6 +124,7 @@
   maxLat: 6.5155669
   longitude: 7.510332999999998
   maxLong: 7.618160199999999
+  alias: enugu
 - minLat: 8.396675
   name: Federal Capital Territory
   capital: Abuja
@@ -119,6 +133,7 @@
   maxLat: 9.3574219
   longitude: 7.179025999999999
   maxLong: 7.617400000000001
+  alias: abuja
 - minLat: 10.264117
   name: Gombe
   capital: Gombe
@@ -127,6 +142,7 @@
   maxLat: 10.3128497
   longitude: 11.166667
   maxLong: 11.2147019
+  alias: gombe
 - minLat: 12.5688205
   name: Jigawa
   capital: Dutse
@@ -135,6 +151,7 @@
   maxLat: 12.5708993
   longitude: 8.9400589
   maxLong: 8.9410364
+  alias: jigawa
 - minLat: 5.179824000000001
   name: Imo
   capital: Owerri
@@ -143,6 +160,7 @@
   maxLat: 5.928465
   longitude: 6.920913499999999
   maxLong: 7.404109
+  alias: imo
 - minLat: 10.3971566
   name: Kaduna
   capital: Kaduna
@@ -151,6 +169,7 @@
   maxLat: 10.6169963
   longitude: 7.433332999999999
   maxLong: 7.508812000000001
+  alias: kaduna
 - minLat: 10.0931591
   name: Kebbi
   capital: Birnin Kebbi
@@ -159,6 +178,7 @@
   maxLat: 13.232542
   longitude: 4.0695454
   maxLong: 6.027123
+  alias: kebbi
 - minLat: 11.912873
   name: Kano
   capital: Kano
@@ -167,6 +187,7 @@
   maxLat: 12.0829016
   longitude: 8.591956099999999
   maxLong: 8.6704765
+  alias: kano
 - minLat: 6.528274199999999
   name: Kogi
   capital: Lokoja
@@ -175,6 +196,7 @@
   maxLat: 8.7320238
   longitude: 6.5783387
   maxLong: 7.8822179
+  alias: kogi
 - minLat: 6.3936419
   name: Lagos
   capital: Ikeja
@@ -183,6 +205,7 @@
   maxLat: 6.7027984
   longitude: 3.3792057
   maxLong: 3.696727799999999
+  alias: lagos
 - minLat: 12.934095
   name: Katsina
   capital: Katsina
@@ -191,6 +214,7 @@
   maxLat: 13.0357094
   longitude: 7.6
   maxLong: 7.676266000000001
+  alias: katsina
 - minLat: 7.966079000000001
   name: Kwara
   capital: Ilorin
@@ -199,6 +223,7 @@
   maxLat: 10.152084
   longitude: 4.5624426
   maxLong: 6.2142591
+  alias: kwara
 - minLat: 7.769181
   name: Nasarawa
   capital: Lafia
@@ -207,6 +232,7 @@
   maxLat: 9.365964000000002
   longitude: 8.3088441
   maxLong: 9.605724
+  alias: nasarawa
 - minLat: 4.269857099999999
   name: Niger
   capital: Minna
@@ -215,6 +241,7 @@
   maxLat: 13.885645
   longitude: 8.675277
   maxLong: 14.677982
+  alias: niger
 - minLat: 6.315346099999999
   name: Ogun
   capital: Abeokuta
@@ -223,6 +250,7 @@
   maxLat: 7.974634999999999
   longitude: 3.2583626
   maxLong: 4.5990951
+  alias: ogun
 - minLat: 7.0529381
   name: Ondo
   capital: Akure
@@ -231,6 +259,7 @@
   maxLat: 7.1249106
   longitude: 4.833333
   maxLong: 4.871921599999999
+  alias: ondo
 - minLat: 4.347035099999999
   name: Rivers
   capital: Port Harcourt
@@ -239,6 +268,7 @@
   maxLat: 5.694652899999999
   longitude: 6.920913499999999
   maxLong: 7.591592899999998
+  alias: rivers
 - minLat: 7.790425099999999
   name: Oyo
   capital: Ibadan
@@ -247,6 +277,7 @@
   maxLat: 7.8899933
   longitude: 3.933
   maxLong: 3.9751624
+  alias: oyo
 - minLat: 6.969976
   name: Osun
   capital: Osogbo
@@ -255,6 +286,7 @@
   maxLat: 8.088640999999999
   longitude: 4.5624426
   maxLong: 5.0647019
+  alias: osun
 - minLat: 12.9764148
   name: Sokoto
   capital: Sokoto
@@ -263,6 +295,7 @@
   maxLat: 13.0880893
   longitude: 5.233333
   maxLong: 5.2881144
+  alias: sokoto
 - minLat: 8.350639
   name: Plateau
   capital: Jos
@@ -271,6 +304,7 @@
   maxLat: 10.3447241
   longitude: 9.7232673
   maxLong: 10.6606639
+  alias: plateau
 - minLat: 6.502453999999999
   name: Taraba
   capital: Jalingo
@@ -279,6 +313,7 @@
   maxLat: 9.604444899999999
   longitude: 10.9807003
   maxLong: 11.981274
+  alias: taraba
 - minLat: 10.5932052
   name: Yobe
   capital: Damaturu
@@ -287,6 +322,7 @@
   maxLat: 13.376133
   longitude: 11.7068294
   maxLong: 12.494047
+  alias: yobe
 - minLat: 10.854616
   name: Zamfara
   capital: Gusau
@@ -295,3 +331,4 @@
   maxLat: 13.207291
   longitude: 6.2375947
   maxLong: 7.245729999999999
+  alias: zamfara

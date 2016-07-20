@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    locations_ng (0.0.1)
+    locations_ng (0.0.2)
       rails (= 4.2.6)
 
 GEM

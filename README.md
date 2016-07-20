@@ -36,7 +36,7 @@ require 'locations_ng'
 
 ### 1. Get all States, canonical
 ```ruby
-LocationsNg::State.new.states
+LocationsNg::State.new.all
 ```
 #### Response
 ```json
@@ -50,7 +50,41 @@ LocationsNg::State.new.states
 ]
 ```
 
-### 2. Get all Cities
+### 2. Get detailed data of a State
+```ruby
+LocationsNg::State.new.details('Lagos')
+```
+#### Response
+```json
+{'minLat'=>6.3936419,
+ 'name'=>'Lagos',
+ 'capital'=>'Ikeja',
+ 'latitude'=>6.5243793,
+ 'minLong'=>3.0982732,
+ 'maxLat'=>6.7027984,
+ 'longitude'=>3.3792057,
+ 'maxLong'=>3.696727799999999,
+ 'alias'=>'lagos',
+ 'cities'=>['Agege', 'Ikeja'],
+ 'lgas'=>['Agege', 'Ajeromi-Ifelodun', 'Alimosho',
+          'Amuwo-Odofin', 'Badagry', 'Apapa', 'Epe',
+          'Eti Osa', 'Ibeju-Lekki', 'Ifako-Ijaiye',
+          'Ikeja', 'Ikorodu', 'Kosofe', 'Lagos Island',
+          'Mushin', 'Lagos Mainland', 'Ojo', 'Oshodi-Isolo',
+          'Shomolu', 'Surulere Lagos State']
+}
+```
+
+### 3. Get State capital
+```ruby
+LocationsNg::State.new.capital('Lagos')
+```
+#### Response
+```json
+Ikeja
+```
+
+### 4. Get all Cities
 ```ruby
 LocationsNg::City.new.all
 ```
@@ -77,7 +111,7 @@ LocationsNg::City.new.all
 ]
 ```
 
-### 3. Get Cities in a State
+### 5. Get Cities in a State
 ```ruby
 LocationsNg::City.new.cities('Akwa Ibom')
 ```
@@ -86,7 +120,7 @@ LocationsNg::City.new.cities('Akwa Ibom')
 ['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
-### 4. Get LGAs in a State
+### 6. Get LGAs in a State
 ```ruby
 LocationsNg::Lga.new.lgas('Lagos')
 ```
