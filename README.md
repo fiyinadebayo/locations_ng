@@ -86,6 +86,20 @@ LocationsNg::City.new.cities('Akwa Ibom')
 ['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
+### 4. Get LGAs in a State
+```ruby
+LocationsNg::Lga.new.lgas('Lagos')
+```
+#### Response
+```json
+['Agege', 'Ajeromi-Ifelodun', 'Alimosho',
+ 'Amuwo-Odofin', 'Badagry', 'Apapa', 'Epe',
+ 'Eti Osa', 'Ibeju-Lekki', 'Ifako-Ijaiye',
+ 'Ikeja', 'Ikorodu', 'Kosofe', 'Lagos Island',
+ 'Mushin', 'Lagos Mainland', 'Ojo', 'Oshodi-Isolo',
+ 'Shomolu', 'Surulere Lagos State']
+```
+
 License
 ----
 
