@@ -45,7 +45,45 @@ LocationsNg::State.new.states
   {:name=>"Adamawa", :capital=>"Yola"},
   {:name=>"Akwa Ibom", :capital=>"Uyo"},
   ...
+  ...
+  {:name=>"Zamfara",:capital=>"Gusau"}
 ]
+```
+
+### 2. Get all Cities
+```ruby
+LocationsNg::City.new.all
+```
+#### Response
+```json
+[
+  {
+    "state":"Akwa Ibom",
+    "alias":"akwa_ibom",
+    "cities":["Eket", "Ikot Ekpene", "Oron", "Uyo"]
+  },
+  {
+    "state":"Bauchi",
+    "alias":"bauchi",
+    "cities":["Bauchi"]
+  },
+  ...
+  ...
+  {
+    "state":"Zamfara",
+    "alias":"zamfara",
+    "cities":["Gusau"]
+  }
+]
+```
+
+### 3. Get Cities in a State
+```ruby
+LocationsNg::City.new.cities('Akwa Ibom')
+```
+#### Response
+```json
+['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
 License
