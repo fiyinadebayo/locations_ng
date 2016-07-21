@@ -1,10 +1,10 @@
 module LocationsNg
   class City
-    def all
+    def self.all
       load_cities
     end
 
-    def cities(state)
+    def self.cities(state)
       state = state.downcase.gsub(' ', '_')
       all_cities = load_cities
 
@@ -19,11 +19,11 @@ module LocationsNg
 
     private
 
-    def load_cities
+    def self.load_cities
       YAML.load(File.read(files_location 'cities'))
     end
 
-    def files_location(file)
+    def self.files_location(file)
       File.expand_path("../locations/#{file}.yml", __FILE__)
     end
   end
