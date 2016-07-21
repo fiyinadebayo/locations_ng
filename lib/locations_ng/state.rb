@@ -15,7 +15,7 @@ module LocationsNg
       else
         res = all_states[state_index].with_indifferent_access
         res['cities'] = LocationsNg::City.new.cities(state)
-        res['lgas'] = LocationsNg::Lga.new.lgas(state)
+        res['lgas'] = LocationsNg::Lga.lgas(state)
         res
       end
     end

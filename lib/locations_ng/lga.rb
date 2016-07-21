@@ -1,10 +1,10 @@
 module LocationsNg
   class Lga
-    def all
+    def self.all
       load_lgas
     end
 
-    def lgas(state)
+    def self.lgas(state)
       state = state.downcase.gsub(' ', '_')
       all_lgas = load_lgas
 
@@ -19,11 +19,11 @@ module LocationsNg
 
     private
 
-    def load_lgas
+    def self.load_lgas
       YAML.load(File.read(files_location 'lgas'))
     end
 
-    def files_location(file)
+    def self.files_location(file)
       File.expand_path("../locations/#{file}.yml", __FILE__)
     end
   end
