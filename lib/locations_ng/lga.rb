@@ -1,10 +1,20 @@
 module LocationsNg
   class Lga
+    def all
+      load_lgas
+    end
+
     def lgas(state)
       state = state.downcase.gsub(' ', '_')
+      all_lgas = load_lgas
 
-      res = load_lgas.map{|l| l[0] if l[1] == state.capitalize}.compact
-      res.empty? ? {message: "No lgas found for '#{state}'", :status=>404} : res
+      lga_index = all_lgas.index{|l| l['alias'] == state}
+
+      if lga_index.nil?
+        {message: "No lgas found for '#{state}'", status: 404}
+      else
+        all_lgas[lga_index]['lgas']
+      end
     end
 
     private

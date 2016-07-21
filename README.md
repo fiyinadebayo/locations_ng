@@ -120,7 +120,69 @@ LocationsNg::City.new.cities('Akwa Ibom')
 ['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
-### 6. Get LGAs in a State
+### 6. Get all LGAs
+```ruby
+LocationsNg::Lga.new.all
+```
+#### Response
+```json
+[
+  {
+    "state"=>"Adamawa",
+    "alias"=>"adamawa",
+    "lgas"=>[
+      "Demsa",
+      "Fufure",
+      "Ganye",
+      "Gayuk",
+      "Gombi",
+      "Grie",
+      "Hong",
+      "Jada",
+      "Larmurde",
+      "Madagali",
+      "Maiha",
+      "Mayo Belwa",
+      "Michika",
+      "Mubi North",
+      "Mubi South",
+      "Numan",
+      "Shelleng",
+      "Song",
+      "Toungo",
+      "Yola North",
+      "Yola South"
+    ]
+  },
+  ...
+  ...
+  {
+    "state"=>"Abia",
+    "alias"=>"abia",
+    "lgas"=>[
+      "Aba North",
+      "Arochukwu",
+      "Aba South",
+      "Bende",
+      "Isiala Ngwa North",
+      "Ikwuano",
+      "Isiala Ngwa South",
+      "Isuikwuato",
+      "Obi Ngwa",
+      "Ohafia",
+      "Osisioma",
+      "Ugwunagbo",
+      "Ukwa East",
+      "Ukwa West",
+      "Umuahia North",
+      "Umuahia South",
+      "Umu Nneochi"
+    ]
+  }
+]
+```
+
+### 7. Get LGAs in a State
 ```ruby
 LocationsNg::Lga.new.lgas('Lagos')
 ```

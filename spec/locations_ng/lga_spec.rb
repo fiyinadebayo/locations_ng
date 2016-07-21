@@ -4,6 +4,14 @@ module LocationsNg
   describe Lga do
     let(:lga) { LocationsNg::Lga.new }
 
+    describe '.all' do
+      let(:lga_response) { File.read('spec/responses/lgas.json') }
+
+      it 'returns all LGAs in Nigeria' do
+        expect(lga.all).to eq(JSON.parse(lga_response))
+      end
+    end
+
     describe '.lgas' do
       context 'when lgas for a state is not found' do
         it 'returns an error message' do

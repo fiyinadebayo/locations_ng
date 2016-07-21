@@ -6,12 +6,14 @@ module LocationsNg
 
     def cities(state)
       state = state.downcase.gsub(' ', '_')
-      city_index = load_cities.index{|c| c['alias'] == state}
+      all_cities = load_cities
+
+      city_index = all_cities.index{|c| c['alias'] == state}
 
       if city_index.nil?
         {message: "No cities found for '#{state}'", status: 404}
       else
-        load_cities[city_index]['cities']
+        all_cities[city_index]['cities']
       end
     end
 
