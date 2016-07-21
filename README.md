@@ -36,7 +36,7 @@ require 'locations_ng'
 
 ### 1. Get all States, canonical
 ```ruby
-LocationsNg::State.new.all
+LocationsNg::State.all
 ```
 #### Response
 ```json
@@ -52,7 +52,7 @@ LocationsNg::State.new.all
 
 ### 2. Get detailed data of a State
 ```ruby
-LocationsNg::State.new.details('Lagos')
+LocationsNg::State.details('Lagos')
 ```
 #### Response
 ```json
@@ -77,7 +77,7 @@ LocationsNg::State.new.details('Lagos')
 
 ### 3. Get State capital
 ```ruby
-LocationsNg::State.new.capital('Lagos')
+LocationsNg::State.capital('Lagos')
 ```
 #### Response
 ```json
@@ -86,7 +86,7 @@ Ikeja
 
 ### 4. Get all Cities
 ```ruby
-LocationsNg::City.new.all
+LocationsNg::City.all
 ```
 #### Response
 ```json
@@ -113,7 +113,7 @@ LocationsNg::City.new.all
 
 ### 5. Get Cities in a State
 ```ruby
-LocationsNg::City.new.cities('Akwa Ibom')
+LocationsNg::City.cities('Akwa Ibom')
 ```
 #### Response
 ```json
@@ -122,7 +122,7 @@ LocationsNg::City.new.cities('Akwa Ibom')
 
 ### 6. Get all LGAs
 ```ruby
-LocationsNg::Lga.new.all
+LocationsNg::Lga.all
 ```
 #### Response
 ```json
@@ -184,7 +184,7 @@ LocationsNg::Lga.new.all
 
 ### 7. Get LGAs in a State
 ```ruby
-LocationsNg::Lga.new.lgas('Lagos')
+LocationsNg::Lga.lgas('Lagos')
 ```
 #### Response
 ```json

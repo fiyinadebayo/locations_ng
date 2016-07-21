@@ -2,7 +2,7 @@ require 'spec_helper'
 
 module LocationsNg
   describe Lga do
-    let(:lga) { LocationsNg::Lga.new }
+    let(:lga) { LocationsNg::Lga }
 
     describe '.all' do
       let(:lga_response) { File.read('spec/responses/lgas.json') }

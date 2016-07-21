@@ -2,7 +2,7 @@ require 'spec_helper'
 
 module LocationsNg
   describe City do
-    let(:city) { LocationsNg::City.new }
+    let(:city) { LocationsNg::City }
 
     describe '.all' do
       let(:cities_response) { File.read('spec/responses/cities.json') }
