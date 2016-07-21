@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version       = LocationsNg::VERSION
   s.authors       = ['Fiyin Adebayo']
   s.email         = 'fiyinsimeon@gmail.com'
-  s.date          = '2016-07-17'
+  s.date          = Date.today.strftime('%Y-%m-%d')
   s.summary       = 'States, Cities and LGAs in Nigeria.'
   s.description   = 'Provides methods to get all states, their cities and LGAs in Nigeria.'
   s.license       = 'MIT'
