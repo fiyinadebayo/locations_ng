@@ -1,10 +1,10 @@
 module LocationsNg
   class State
-    def all
+    def self.all
       load_states.map{ |s| {name: s['name'], capital: s['capital']} }
     end
 
-    def details(state)
+    def self.details(state)
       state = state.downcase.gsub(' ', '_')
       all_states = load_states
 
@@ -20,7 +20,7 @@ module LocationsNg
       end
     end
 
-    def capital(state)
+    def self.capital(state)
       state = state.downcase.gsub(' ', '_')
       all_states = load_states
 
@@ -35,11 +35,11 @@ module LocationsNg
 
     private
 
-    def load_states
+    def self.load_states
       YAML.load(File.read(files_location 'states'))
     end
 
-    def files_location(file)
+    def self.files_location(file)
       File.expand_path("../locations/#{file}.yml", __FILE__)
     end
   end

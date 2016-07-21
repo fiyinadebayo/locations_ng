@@ -2,7 +2,7 @@ require 'spec_helper'
 
 module LocationsNg
   describe State do
-    let(:state) { LocationsNg::State.new }
+    let(:state) { LocationsNg::State }
 
     describe '.all' do
       let(:state_response) { File.read('spec/responses/canonical_states.json') }
