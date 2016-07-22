@@ -1,4 +1,4 @@
-# Locations NG
+# Locations NG [![CircleCI](https://circleci.com/gh/ceemion/locations_ng/tree/master.svg?style=svg)](https://circleci.com/gh/ceemion/locations_ng/tree/master) [![Gem Version](https://badge.fury.io/rb/locations_ng.svg)](https://badge.fury.io/rb/locations_ng)
 Locations NG is a gem that provides methods to get all states, their cities and LGAs in Nigeria. 
 
 ### Requirements
@@ -39,7 +39,7 @@ require 'locations_ng'
 LocationsNg::State.all
 ```
 #### Response
-```json
+```bash
 [
   {:name=>"Abia", :capital=>"Umuahia"},
   {:name=>"Adamawa", :capital=>"Yola"},
@@ -55,7 +55,7 @@ LocationsNg::State.all
 LocationsNg::State.details('Lagos')
 ```
 #### Response
-```json
+```bash
 {'minLat'=>6.3936419,
  'name'=>'Lagos',
  'capital'=>'Ikeja',
@@ -80,7 +80,7 @@ LocationsNg::State.details('Lagos')
 LocationsNg::State.capital('Lagos')
 ```
 #### Response
-```json
+```bash
 Ikeja
 ```
 
@@ -89,7 +89,7 @@ Ikeja
 LocationsNg::City.all
 ```
 #### Response
-```json
+```bash
 [
   {
     "state":"Akwa Ibom",
@@ -116,7 +116,7 @@ LocationsNg::City.all
 LocationsNg::City.cities('Akwa Ibom')
 ```
 #### Response
-```json
+```bash
 ['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
@@ -125,7 +125,7 @@ LocationsNg::City.cities('Akwa Ibom')
 LocationsNg::Lga.all
 ```
 #### Response
-```json
+```bash
 [
   {
     "state"=>"Adamawa",
@@ -187,7 +187,7 @@ LocationsNg::Lga.all
 LocationsNg::Lga.lgas('Lagos')
 ```
 #### Response
-```json
+```bash
 ['Agege', 'Ajeromi-Ifelodun', 'Alimosho',
  'Amuwo-Odofin', 'Badagry', 'Apapa', 'Epe',
  'Eti Osa', 'Ibeju-Lekki', 'Ifako-Ijaiye',
