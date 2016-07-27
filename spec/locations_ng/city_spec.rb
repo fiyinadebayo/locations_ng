@@ -23,6 +23,10 @@ module LocationsNg
         it 'returns the cities of a specific state' do
           expect(city.cities('Akwa Ibom')).to eq(['Eket', 'Ikot Ekpene', 'Oron', 'Uyo'])
         end
+
+        it 'returns the cities for FCT' do
+          expect(city.cities('Federal Capital Territory')).to eq(%w(Abuja))
+        end
       end
     end
   end

@@ -8,6 +8,10 @@ module LocationsNg
       state = state.downcase.gsub(' ', '_')
       all_cities = load_cities
 
+      if state == 'federal_capital_territory'
+        state = 'fct'
+      end
+
       city_index = all_cities.index{|c| c['alias'] == state}
 
       if city_index.nil?

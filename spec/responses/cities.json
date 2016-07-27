@@ -45,6 +45,11 @@
     "cities":["Enugu", "Nsukka", "Agbani", "Awgu", "Udi", "Oji-River"]
   },
   {
+    "state":"Federal Capital Territory",
+    "alias":"fct",
+    "cities":["Abuja"]
+  },
+  {
     "state":"Gombe",
     "alias":"gombe",
     "cities":["Gombe"]
