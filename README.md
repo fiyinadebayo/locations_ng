@@ -34,7 +34,7 @@ $ gem install locations_ng
 require 'locations_ng'
 ```
 
-### 1. Get all States, canonical
+### 1. GET all States, canonical
 ```ruby
 LocationsNg::State.all
 ```
@@ -50,7 +50,7 @@ LocationsNg::State.all
 ]
 ```
 
-### 2. Get detailed data of a State
+### 2. GET detailed data of a State
 ```ruby
 LocationsNg::State.details('Lagos')
 ```
@@ -75,7 +75,7 @@ LocationsNg::State.details('Lagos')
 }
 ```
 
-### 3. Get State capital
+### 3. GET State capital
 ```ruby
 LocationsNg::State.capital('Lagos')
 ```
@@ -84,7 +84,7 @@ LocationsNg::State.capital('Lagos')
 Ikeja
 ```
 
-### 4. Get all Cities
+### 4. GET all Cities
 ```ruby
 LocationsNg::City.all
 ```
@@ -111,7 +111,7 @@ LocationsNg::City.all
 ]
 ```
 
-### 5. Get Cities in a State
+### 5. GET Cities in a State
 ```ruby
 LocationsNg::City.cities('Akwa Ibom')
 ```
@@ -120,7 +120,7 @@ LocationsNg::City.cities('Akwa Ibom')
 ['Eket', 'Ikot Ekpene', 'Oron', 'Uyo']
 ```
 
-### 6. Get all LGAs
+### 6. GET all LGAs
 ```ruby
 LocationsNg::Lga.all
 ```
@@ -182,7 +182,7 @@ LocationsNg::Lga.all
 ]
 ```
 
-### 7. Get LGAs in a State
+### 7. GET LGAs in a State
 ```ruby
 LocationsNg::Lga.lgas('Lagos')
 ```
