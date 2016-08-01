@@ -196,6 +196,25 @@ LocationsNg::Lga.lgas('Lagos')
  'Shomolu', 'Surulere Lagos State']
 ```
 
+### 8. GET Localities for LGAs in a State (query with *state* and *LGA*)
+```ruby
+LocationsNg::Lga.localities('Abia', 'Aba North')
+```
+#### Response
+```bash
+['Ariaria', 'Asaokpoja', 'Asaokpulor',
+ 'Eziama  ward', 'Industrial', 'Ogbor 1',
+ 'Ogbor 2', 'Old GRA', 'Osusu 1', 'Osusu 2',
+ 'St. Eugene', 'Umuogor', 'Umuola', 'Uratta']
+```
+
+## Contributing
+* Fork this repository
+* Create a new branch
+* make your changes
+* Create a Pull Request
+
+
 License
 ----
 
