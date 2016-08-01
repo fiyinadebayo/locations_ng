@@ -1,46 +1,52 @@
 module LocationsNg
   class State
-    def self.all
-      load_states.map{ |s| {name: s['name'], capital: s['capital']} }
-    end
-
-    def self.details(state)
-      state = state.downcase.gsub(' ', '_')
-      all_states = load_states
-
-      state_index = all_states.index{|s| s['alias'] == state}
-
-      if state_index.nil?
-        {message: "No state found for '#{state}'", status: 404}
-      else
-        res = all_states[state_index].with_indifferent_access
-        res['cities'] = LocationsNg::City.cities(state)
-        res['lgas'] = LocationsNg::Lga.lgas(state)
-        res
+    class << self
+      def all
+        load_states.map{ |s| {name: s['name'], capital: s['capital']} }
       end
-    end
 
-    def self.capital(state)
-      state = state.downcase.gsub(' ', '_')
-      all_states = load_states
+      def details(state)
+        state = state.downcase.gsub(' ', '_')
+        all_states = load_states
 
-      state_index = all_states.index{|s| s['alias'] == state}
+        state_index = all_states.index{|s| s['alias'] == state}
 
-      if state_index.nil?
-        {message: "No state found for '#{state}'", status: 404}
-      else
-        all_states[state_index]['capital']
+        if state_index.nil?
+          {message: "No state found for '#{state}'", status: 404}
+        else
+          res = all_states[state_index].with_indifferent_access
+          res['cities'] = LocationsNg::City.cities(state)
+          res['lgas'] = LocationsNg::Lga.lgas(state)
+          res
+        end
       end
-    end
 
-    private
+      def capital(state)
+        state = state.downcase.gsub(' ', '_')
+        all_states = load_states
 
-    def self.load_states
-      YAML.load(File.read(files_location 'states'))
-    end
+        state_index = all_states.index{|s| s['alias'] == state}
 
-    def self.files_location(file)
-      File.expand_path("../locations/#{file}.yml", __FILE__)
+        if state_index.nil?
+          {message: "No state found for '#{state}'", status: 404}
+        else
+          all_states[state_index]['capital']
+        end
+      end
+
+      private
+
+      def load_states
+        YAML.load(File.read(files_location 'states'))
+      end
+
+      def files_location(file)
+        File.expand_path("../locations/#{file}.yml", __FILE__)
+      end
+
+      def format_query(query)
+        query ? query.downcase.gsub(' ', '_') : query
+      end
     end
   end
 end
