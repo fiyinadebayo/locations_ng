@@ -6,10 +6,10 @@ module LocationsNg
       end
 
       def details(state)
-        state = state.downcase.gsub(' ', '_')
+        state_query = format_query(state)
         all_states = load_states
 
-        state_index = all_states.index{|s| s['alias'] == state}
+        state_index = all_states.index{|s| s['alias'] == state_query}
 
         if state_index.nil?
           {message: "No state found for '#{state}'", status: 404}
@@ -22,10 +22,10 @@ module LocationsNg
       end
 
       def capital(state)
-        state = state.downcase.gsub(' ', '_')
+        state_query = format_query(state)
         all_states = load_states
 
-        state_index = all_states.index{|s| s['alias'] == state}
+        state_index = all_states.index{|s| s['alias'] == state_query}
 
         if state_index.nil?
           {message: "No state found for '#{state}'", status: 404}

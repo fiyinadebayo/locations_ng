@@ -19,7 +19,7 @@ module LocationsNg
     describe '.details' do
       context 'when state is not found' do
         it 'returns status with message' do
-          expect(state.details('AbIja')).to eq({message: "No state found for 'abija'", status: 404})
+          expect(state.details('AbIja')).to eq({message: "No state found for 'AbIja'", status: 404})
         end
       end
 
@@ -35,12 +35,12 @@ module LocationsNg
                                              'maxLong'=>3.696727799999999,
                                              'alias'=>'lagos',
                                              'cities'=>%w(Agege Ikeja),
-                                             'lgas'=>['Agege', 'Ajeromi-Ifelodun', 'Alimosho',
-                                                      'Amuwo-Odofin', 'Badagry', 'Apapa', 'Epe',
-                                                      'Eti Osa', 'Ibeju-Lekki', 'Ifako-Ijaiye',
+                                             'lgas'=>['Agege', 'Ajeromi/ifelodun', 'Alimosho',
+                                                      'Amuwo-odofin', 'Apapa', 'Badagry', 'Epe',
+                                                      'Eti-osa', 'Ibeju/lekki', 'Ifako/ijaiye',
                                                       'Ikeja', 'Ikorodu', 'Kosofe', 'Lagos Island',
-                                                      'Mushin', 'Lagos Mainland', 'Ojo', 'Oshodi-Isolo',
-                                                      'Shomolu', 'Surulere Lagos State']
+                                                      'Lagos Mainland', 'Mushin', 'Ojo', 'Oshodi/isolo',
+                                                      'Shomolu', 'Surulere']
                                             })
         end
       end
@@ -49,7 +49,7 @@ module LocationsNg
     describe '.capital' do
       context 'when state is not found' do
         it 'returns status with message' do
-          expect(state.details('AbIja')).to eq({message: "No state found for 'abija'", status: 404})
+          expect(state.details('AbIja')).to eq({message: "No state found for 'AbIja'", status: 404})
         end
       end
 
