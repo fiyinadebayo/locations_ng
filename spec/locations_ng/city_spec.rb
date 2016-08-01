@@ -15,7 +15,7 @@ module LocationsNg
     describe '.cities' do
       context 'when state is not found' do
         it 'returns error message' do
-          expect(city.cities('Invalid State')).to eq({message: "No cities found for 'invalid_state'", status: 404})
+          expect(city.cities('Invalid State')).to eq({message: "No cities found for 'Invalid State'", status: 404})
         end
       end
 
