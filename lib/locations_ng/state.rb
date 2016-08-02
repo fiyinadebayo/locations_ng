@@ -27,11 +27,11 @@ module LocationsNg
 
         state_index = all_states.index{|s| s['alias'] == state_query}
 
-        if state_index.nil?
-          {message: "No state found for '#{state}'", status: 404}
-        else
-          all_states[state_index]['capital']
+        unless state_index.nil?
+          return all_states[state_index]['capital']
         end
+
+        {message: "No state found for '#{state}'", status: 404}
       end
 
       private
