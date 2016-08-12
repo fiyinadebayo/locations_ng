@@ -6,10 +6,9 @@ module LocationsNg
       end
 
       def details(state)
-        state_query = format_query(state)
         all_states = load_states
 
-        state_index = all_states.index{|s| s['alias'] == state_query}
+        state_index = all_states.index{ |s| s['alias'] == format_query(state) }
 
         if state_index.nil?
           {message: "No state found for '#{state}'", status: 404}
@@ -22,10 +21,9 @@ module LocationsNg
       end
 
       def capital(state)
-        state_query = format_query(state)
         all_states = load_states
 
-        state_index = all_states.index{|s| s['alias'] == state_query}
+        state_index = all_states.index{ |s| s['alias'] == format_query(state) }
 
         unless state_index.nil?
           return all_states[state_index]['capital']

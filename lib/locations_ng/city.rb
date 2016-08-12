@@ -5,12 +5,15 @@ module LocationsNg
         load_cities
       end
 
-      def cities(state)
-        state_query = state.downcase.gsub(' ', '_')
-        all_cities = load_cities
-        state_query = 'fct' if state_query == 'federal_capital_territory'
+      def state_query(state)
+        state == 'federal_capital_territory' ? 'fct' : state
+      end
 
-        city_index = all_cities.index{|c| c['alias'] == state_query}
+      def cities(state)
+        all_cities = load_cities
+        state_query = self.state_query(state.downcase.gsub(' ', '_'))
+
+        city_index = all_cities.index{ |c| c['alias'] == state_query }
 
         unless city_index.nil?
           return all_cities[city_index]['cities']
