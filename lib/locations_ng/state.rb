@@ -1,20 +1,21 @@
 module LocationsNg
   class State
+    @@all_states
+
     class << self
       def all
         load_states.map{ |s| {name: s['name'], capital: s['capital']} }
       end
 
       def details(state)
-        state_query = format_query(state)
-        all_states = load_states
+        load_states
 
-        state_index = all_states.index{|s| s['alias'] == state_query}
+        state_index = @@all_states.index{ |s| s['alias'] == format_query(state) }
 
         if state_index.nil?
           {message: "No state found for '#{state}'", status: 404}
         else
-          res = all_states[state_index].with_indifferent_access
+          res = @@all_states[state_index].with_indifferent_access
           res['cities'] = LocationsNg::City.cities(state)
           res['lgas'] = LocationsNg::Lga.lgas(state)
           res
@@ -22,22 +23,21 @@ module LocationsNg
       end
 
       def capital(state)
-        state_query = format_query(state)
-        all_states = load_states
+        load_states
 
-        state_index = all_states.index{|s| s['alias'] == state_query}
+        state_index = @@all_states.index{ |s| s['alias'] == format_query(state) }
 
-        if state_index.nil?
-          {message: "No state found for '#{state}'", status: 404}
-        else
-          all_states[state_index]['capital']
+        unless state_index.nil?
+          return @@all_states[state_index]['capital']
         end
+
+        {message: "No state found for '#{state}'", status: 404}
       end
 
       private
 
       def load_states
-        YAML.load(File.read(files_location 'states'))
+        @@all_states ||= YAML.load(File.read(files_location 'states'))
       end
 
       def files_location(file)
