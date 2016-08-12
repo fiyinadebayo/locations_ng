@@ -1,5 +1,7 @@
 module LocationsNg
   class City
+    @@all_cities
+
     class << self
       def all
         load_cities
@@ -10,13 +12,13 @@ module LocationsNg
       end
 
       def cities(state)
-        all_cities = load_cities
+        load_cities
         state_query = self.state_query(state.downcase.gsub(' ', '_'))
 
-        city_index = all_cities.index{ |c| c['alias'] == state_query }
+        city_index = @@all_cities.index{ |c| c['alias'] == state_query }
 
         unless city_index.nil?
-          return all_cities[city_index]['cities']
+          return @@all_cities[city_index]['cities']
         end
 
         {message: "No cities found for '#{state}'", status: 404}
@@ -24,7 +26,7 @@ module LocationsNg
 
       private
       def load_cities
-        YAML.load(File.read(files_location 'cities'))
+        @@all_cities ||= YAML.load(File.read(files_location 'cities'))
       end
 
       def files_location(file)
