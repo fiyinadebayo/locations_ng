@@ -1,4 +1,4 @@
-# Locations NG [![CircleCI](https://circleci.com/gh/ceemion/locations_ng/tree/master.svg?style=svg)](https://circleci.com/gh/ceemion/locations_ng/tree/master) [![Gem Version](https://badge.fury.io/rb/locations_ng.svg)](https://badge.fury.io/rb/locations_ng)
+# Locations NG [![CircleCI](https://circleci.com/gh/ceemion/locations_ng/tree/master.svg?style=svg)](https://circleci.com/gh/ceemion/locations_ng/tree/master) [![Gem Version](https://badge.fury.io/rb/locations_ng.svg)](https://badge.fury.io/rb/locations_ng) [![Code Climate](https://codeclimate.com/github/ceemion/locations_ng/badges/gpa.svg)](https://codeclimate.com/github/ceemion/locations_ng) [![Issue Count](https://codeclimate.com/github/ceemion/locations_ng/badges/issue_count.svg)](https://codeclimate.com/github/ceemion/locations_ng)
 Locations NG is a gem that provides methods to get all states, their cities and LGAs in Nigeria. 
 
 ### Requirements
