@@ -8,7 +8,7 @@ module LocationsNg
       end
 
       def cities(state)
-        state_query = state_query(state.downcase.gsub(' ', '_'))
+        state_query = state_query(state.downcase.tr(' ', '_'))
         city_index = @all_cities.index{ |c| c['alias'] == state_query }
 
         unless city_index.nil?

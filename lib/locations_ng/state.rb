@@ -33,7 +33,7 @@ module LocationsNg
       private
 
       def format_query(query)
-        query ? query.downcase.gsub(' ', '_') : query
+        query ? query.downcase.tr(' ', '_') : query
       end
     end
   end
