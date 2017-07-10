@@ -33,6 +33,7 @@ module LocationsNg
                                              'maxLat'=>6.7027984,
                                              'longitude'=>3.3792057,
                                              'maxLong'=>3.696727799999999,
+                                             'area'=>3345,
                                              'alias'=>'lagos',
                                              'cities'=>%w(Agege Ikeja),
                                              'lgas'=>['Agege', 'Ajeromi/ifelodun', 'Alimosho',

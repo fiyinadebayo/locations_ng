@@ -8,6 +8,7 @@
   longitude: 7.524724300000001
   maxLong: 7.9630091
   alias: abia
+  area: 6320
 - minLat: 7.452592
   name: Adamawa
   capital: Yola
@@ -17,6 +18,7 @@
   longitude: 12.4380581
   maxLong: 13.6924919
   alias: adamawa
+  area: 36917
 - minLat: 4.4780049
   name: Akwa Ibom
   capital: Uyo
@@ -26,6 +28,7 @@
   longitude: 7.872159999999999
   maxLong: 8.340371
   alias: akwa_ibom
+  area: 7081
 - minLat: 5.692615000000001
   name: Anambra
   capital: Awka
@@ -35,6 +38,7 @@
   longitude: 7.0068393
   maxLong: 7.355934
   alias: anambra
+  area: 4844
 - minLat: 10.255381
   name: Bauchi
   capital: Bauchi
@@ -44,6 +48,7 @@
   longitude: 9.844166999999999
   maxLong: 9.864006
   alias: bauchi
+  area: 45837
 - minLat: 6.4427789
   name: Benue
   capital: Makurdi
@@ -53,6 +58,7 @@
   longitude: 8.8362755
   maxLong: 9.918301
   alias: benue
+  area: 34059
 - minLat: 10.0291549
   name: Borno
   capital: Maiduguri
@@ -62,6 +68,7 @@
   longitude: 12.9789121
   maxLong: 14.680073
   alias: borno
+  area: 70898
 - minLat: 4.2771439
   name: Bayelsa
   capital: Yenagoa
@@ -71,6 +78,7 @@
   longitude: 5.898713900000001
   maxLong: 6.724865899999999
   alias: bayelsa
+  area: 10773
 - minLat: 4.690596000000001
   name: Cross River
   capital: Calabar
@@ -80,6 +88,7 @@
   longitude: 8.6600586
   maxLong: 9.472486
   alias: cross_river
+  area: 20156
 - minLat: 5.024351999999999
   name: Delta
   capital: Asaba
@@ -89,6 +98,7 @@
   longitude: 5.898713900000001
   maxLong: 6.7653911
   alias: delta
+  area: 17698
 - minLat: 5.6873539
   name: Ebonyi
   capital: Abakaliki
@@ -98,6 +108,7 @@
   longitude: 7.959286299999999
   maxLong: 8.4470269
   alias: ebonyi
+  area: 5670
 - minLat: 5.7386799
   name: Edo
   capital: Benin
@@ -107,6 +118,7 @@
   longitude: 5.898713900000001
   maxLong: 6.707891000000001
   alias: edo
+  area: 17802
 - minLat: 7.272215999999999
   name: Ekiti
   capital: Ado-Ekiti
@@ -116,6 +128,7 @@
   longitude: 5.3102505
   maxLong: 5.8048959
   alias: ekiti
+  area: 6353
 - minLat: 6.360852
   name: Enugu
   capital: Enugu
@@ -125,6 +138,7 @@
   longitude: 7.510332999999998
   maxLong: 7.618160199999999
   alias: enugu
+  area: 7161
 - minLat: 8.396675
   name: Federal Capital Territory
   capital: Abuja
@@ -134,6 +148,7 @@
   longitude: 7.179025999999999
   maxLong: 7.617400000000001
   alias: fct
+  area: 7315
 - minLat: 10.264117
   name: Gombe
   capital: Gombe
@@ -143,6 +158,7 @@
   longitude: 11.166667
   maxLong: 11.2147019
   alias: gombe
+  area: 18768
 - minLat: 12.5688205
   name: Jigawa
   capital: Dutse
@@ -152,6 +168,7 @@
   longitude: 8.9400589
   maxLong: 8.9410364
   alias: jigawa
+  area: 23154
 - minLat: 5.179824000000001
   name: Imo
   capital: Owerri
@@ -161,6 +178,7 @@
   longitude: 6.920913499999999
   maxLong: 7.404109
   alias: imo
+  area: 5530
 - minLat: 10.3971566
   name: Kaduna
   capital: Kaduna
@@ -170,6 +188,7 @@
   longitude: 7.433332999999999
   maxLong: 7.508812000000001
   alias: kaduna
+  area: 46053
 - minLat: 10.0931591
   name: Kebbi
   capital: Birnin Kebbi
@@ -179,6 +198,7 @@
   longitude: 4.0695454
   maxLong: 6.027123
   alias: kebbi
+  area: 36800
 - minLat: 11.912873
   name: Kano
   capital: Kano
@@ -188,6 +208,7 @@
   longitude: 8.591956099999999
   maxLong: 8.6704765
   alias: kano
+  area: 20131
 - minLat: 6.528274199999999
   name: Kogi
   capital: Lokoja
@@ -197,6 +218,7 @@
   longitude: 6.5783387
   maxLong: 7.8822179
   alias: kogi
+  area: 29833
 - minLat: 6.3936419
   name: Lagos
   capital: Ikeja
@@ -205,6 +227,7 @@
   maxLat: 6.7027984
   longitude: 3.3792057
   maxLong: 3.696727799999999
+  area: 3345
   alias: lagos
 - minLat: 12.934095
   name: Katsina
@@ -215,6 +238,7 @@
   longitude: 7.6
   maxLong: 7.676266000000001
   alias: katsina
+  area: 24192
 - minLat: 7.966079000000001
   name: Kwara
   capital: Ilorin
@@ -224,6 +248,7 @@
   longitude: 4.5624426
   maxLong: 6.2142591
   alias: kwara
+  area: 36825
 - minLat: 7.769181
   name: Nasarawa
   capital: Lafia
@@ -233,6 +258,7 @@
   longitude: 8.3088441
   maxLong: 9.605724
   alias: nasarawa
+  area: 27117
 - minLat: 4.269857099999999
   name: Niger
   capital: Minna
@@ -242,6 +268,7 @@
   longitude: 8.675277
   maxLong: 14.677982
   alias: niger
+  area: 76363
 - minLat: 6.315346099999999
   name: Ogun
   capital: Abeokuta
@@ -251,6 +278,7 @@
   longitude: 3.2583626
   maxLong: 4.5990951
   alias: ogun
+  area: 16762
 - minLat: 7.0529381
   name: Ondo
   capital: Akure
@@ -260,6 +288,7 @@
   longitude: 4.833333
   maxLong: 4.871921599999999
   alias: ondo
+  area: 15500
 - minLat: 4.347035099999999
   name: Rivers
   capital: Port Harcourt
@@ -269,6 +298,7 @@
   longitude: 6.920913499999999
   maxLong: 7.591592899999998
   alias: rivers
+  area: 11077
 - minLat: 7.790425099999999
   name: Oyo
   capital: Ibadan
@@ -278,6 +308,7 @@
   longitude: 3.933
   maxLong: 3.9751624
   alias: oyo
+  area: 28454
 - minLat: 6.969976
   name: Osun
   capital: Osogbo
@@ -287,6 +318,7 @@
   longitude: 4.5624426
   maxLong: 5.0647019
   alias: osun
+  area: 9251
 - minLat: 12.9764148
   name: Sokoto
   capital: Sokoto
@@ -296,6 +328,7 @@
   longitude: 5.233333
   maxLong: 5.2881144
   alias: sokoto
+  area: 25973
 - minLat: 8.350639
   name: Plateau
   capital: Jos
@@ -305,6 +338,7 @@
   longitude: 9.7232673
   maxLong: 10.6606639
   alias: plateau
+  area: 30913
 - minLat: 6.502453999999999
   name: Taraba
   capital: Jalingo
@@ -314,6 +348,7 @@
   longitude: 10.9807003
   maxLong: 11.981274
   alias: taraba
+  area: 54473
 - minLat: 10.5932052
   name: Yobe
   capital: Damaturu
@@ -323,6 +358,7 @@
   longitude: 11.7068294
   maxLong: 12.494047
   alias: yobe
+  area: 45502
 - minLat: 10.854616
   name: Zamfara
   capital: Gusau
@@ -332,3 +368,4 @@
   longitude: 6.2375947
   maxLong: 7.245729999999999
   alias: zamfara
+  area: 39762
