@@ -1,6 +1,7 @@
 # coding: utf-8
 $:.push File.expand_path('../lib', __FILE__)
 require 'locations_ng/version'
+require 'date'
 
 Gem::Specification.new do |s|
   s.name          = 'locations_ng'
