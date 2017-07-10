@@ -26,22 +26,22 @@ module LocationsNg
       context 'when state is found' do
         it 'returns detailed data for the state' do
           expect(state.details('Lagos')).to eq({'minLat'=>6.3936419,
-                                             'name'=>'Lagos',
-                                             'capital'=>'Ikeja',
-                                             'latitude'=>6.5243793,
-                                             'minLong'=>3.0982732,
-                                             'maxLat'=>6.7027984,
-                                             'longitude'=>3.3792057,
-                                             'maxLong'=>3.696727799999999,
-                                             'area'=>3345,
-                                             'alias'=>'lagos',
-                                             'cities'=>%w(Agege Ikeja),
-                                             'lgas'=>['Agege', 'Ajeromi/ifelodun', 'Alimosho',
-                                                      'Amuwo-odofin', 'Apapa', 'Badagry', 'Epe',
-                                                      'Eti-osa', 'Ibeju/lekki', 'Ifako/ijaiye',
-                                                      'Ikeja', 'Ikorodu', 'Kosofe', 'Lagos Island',
-                                                      'Lagos Mainland', 'Mushin', 'Ojo', 'Oshodi/isolo',
-                                                      'Shomolu', 'Surulere']
+                                                'name'=>'Lagos',
+                                                'capital'=>'Ikeja',
+                                                'latitude'=>6.5243793,
+                                                'minLong'=>3.0982732,
+                                                'maxLat'=>6.7027984,
+                                                'longitude'=>3.3792057,
+                                                'maxLong'=>3.696727799999999,
+                                                'area'=>3345,
+                                                'alias'=>'lagos',
+                                                'cities'=>%w(Agege Ikeja),
+                                                'lgas'=>['Agege', 'Ajeromi/ifelodun', 'Alimosho',
+                                                         'Amuwo-odofin', 'Apapa', 'Badagry', 'Epe',
+                                                         'Eti-osa', 'Ibeju/lekki', 'Ifako/ijaiye',
+                                                         'Ikeja', 'Ikorodu', 'Kosofe', 'Lagos Island',
+                                                         'Lagos Mainland', 'Mushin', 'Ojo', 'Oshodi/isolo',
+                                                         'Shomolu', 'Surulere']
                                             })
         end
       end

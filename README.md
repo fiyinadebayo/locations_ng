@@ -65,6 +65,7 @@ LocationsNg::State.details('Lagos')
  'longitude'=>3.3792057,
  'maxLong'=>3.696727799999999,
  'alias'=>'lagos',
+ 'area'=>3345
  'cities'=>['Agege', 'Ikeja'],
  'lgas'=>['Agege', 'Ajeromi-Ifelodun', 'Alimosho',
           'Amuwo-Odofin', 'Badagry', 'Apapa', 'Epe',
