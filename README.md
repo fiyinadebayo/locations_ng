@@ -210,10 +210,11 @@ LocationsNg::Lga.localities('Abia', 'Aba North')
 ```
 
 ## Contributing
-* Fork this repository
-* Create a new branch
-* make your changes
-* Create a Pull Request
+* Fork this repository and clone locally.
+* Create an upstream remote and sync your local copy before you branch.
+* Branch for each separate piece of work.
+* Push to your origin repository.
+* Create a new Pull Request, ensure that the "base fork" points to the correct repository and branch.
 
 
 License
