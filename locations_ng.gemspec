@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.files = Dir.glob('lib/**/*')
   s.test_files = Dir.glob('{test,spec,features}/**/*')
 
-  s.add_dependency 'rails', '4.2.6'
+  s.add_dependency 'rails', '5.1.3'
   s.add_development_dependency 'rspec', '~> 3.5'
 end
