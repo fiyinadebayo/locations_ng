@@ -3,7 +3,7 @@ Locations NG is a gem that provides methods to get all states, their cities and 
 
 ### Requirements
 * Rails version
-`v4.2.6`
+`>= 4.2.6`
 
 * Ruby version
 `>= 2.3.1`
