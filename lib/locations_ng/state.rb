@@ -13,7 +13,7 @@ module LocationsNg
         if state_index.nil?
           {message: "No state found for '#{state}'", status: 404}
         else
-          res = @all_states[state_index].with_indifferent_access
+          res = @all_states[state_index]
           res['cities'] = LocationsNg::City.cities(state)
           res['lgas'] = LocationsNg::Lga.lgas(state)
           res
