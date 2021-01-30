@@ -1,0 +1,10 @@
+version: 2.1
+
+# read more about orbs: https://circleci.com/docs/2.0/using-orbs/
+orbs:
+  ruby: circleci/ruby@2.3.1
+
+jobs:
+  test:
+    steps:
+      - bundle exec rake test
