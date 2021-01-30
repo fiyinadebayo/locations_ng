@@ -2,9 +2,39 @@ version: 2.1
 
 # read more about orbs: https://circleci.com/docs/2.0/using-orbs/
 orbs:
-  ruby: circleci/ruby@2.3.1
+  ruby: circleci/ruby@1.0
 
 jobs:
-  test:
+  build:
+    docker:
+      - image: cimg/ruby:2.3.1-node # use a tailored CircleCI docker image.
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
-      - bundle exec rake test
+      - checkout # pull down our git code.
+      - ruby/install-deps
+  test:  # our next job, called "test"
+    # we run "parallel job containers" to enable speeding up our tests;
+    # this splits our tests across multiple containers.
+    parallelism: 3 
+    # here we set TWO docker images.
+    docker:
+      - image: cimg/ruby:2.7-node # this is our primary docker image, where step commands run.
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      - image: circleci/postgres:9.5-alpine
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+        environment: # add POSTGRES environment variables.
+          POSTGRES_USER: circleci-demo-ruby
+          POSTGRES_DB: rails_blog_test
+          POSTGRES_PASSWORD: ""
+    # A series of steps to run, some are similar to those in "build".
+    steps:
+      - checkout 
+      - ruby/install-deps 
+      # Run rspec in parallel
+      - ruby/rspec-test
