@@ -1,33 +1,15 @@
 version: 2.1
-
-# read more about orbs: https://circleci.com/docs/2.0/using-orbs/
 orbs:
-  ruby: circleci/ruby@1.0
+  ruby: circleci/ruby@0.1.2 
 
 jobs:
-  build: # our first job, named "build"
+  build:
     docker:
-      - image: cimg/ruby:2.7-node # use a tailored CircleCI docker image.
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: ruby/default
     steps:
-      - checkout # pull down our git code.
-      - ruby/install-deps
-          
-  test:  # our next job, called "test"
-    # we run "parallel job containers" to enable speeding up our tests;
-    # this splits our tests across multiple containers.
-    parallelism: 3 
-    # here we set TWO docker images.
-    docker:
-      - image: cimg/ruby:2.7-node # this is our primary docker image, where step commands run.
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
-    # A series of steps to run, some are similar to those in "build".
-    steps:
-      - checkout 
-      - ruby/install-deps 
-      # Run rspec in parallel
-      - ruby/rspec-test
+      - checkout
+      - run:
+          name: Which bundler?
+          command: bundle -v
+      - ruby/bundle-install
